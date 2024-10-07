@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>template</artifactId>
+	<artifactId>azure-cloud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>template</name>
+	<name>azure-cloud</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
