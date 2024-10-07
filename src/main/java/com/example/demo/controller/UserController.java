@@ -25,8 +25,8 @@ public class UserController {
             String serverName =  request.getServerName();
 
             if(StringUtils.hasText(serverName)) {
-                String[] serverNameSplit = serverName.split("-");
-                serverName = serverNameSplit.length > 1 ? serverNameSplit[1] : null;
+                String[] serverNameSplit = serverName.split("\\.");
+                serverName = serverNameSplit.length > 0 ? serverNameSplit[0] : null;
 
                 if(serverName == null || !serverName.matches("\\d+")) {
                     serverName = DEFAULT_USER_ID;
